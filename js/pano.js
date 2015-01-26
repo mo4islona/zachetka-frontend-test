@@ -4,7 +4,6 @@ Pano = EForm.Factory.extend({
         this.config = config;
     },
     initialize: function (elem) {
-
         this.$container = $(elem);
         this.$elem = $('<svg width="100%" height="100%" />');
 
